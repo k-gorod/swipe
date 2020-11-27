@@ -1,0 +1,29 @@
+.movieBlock{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    
+    h2 {
+        border-bottom: 2px solid black;
+    }
+    &__input{
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        margin: 10px 0;
+        padding: 0 0 0 20px;
+        width: 50%;
+        height: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    &__btn{
+        margin: 10px 0  20px 0;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        outline: none;    
+        background: rgb(128, 198, 245);
+    }
+}
+
